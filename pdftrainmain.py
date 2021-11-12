@@ -10,7 +10,7 @@ from pdf2image.exceptions import (
     PDFPageCountError,
     PDFSyntaxError
 )
-
+print('starting process')
 #poppler_path = r'C:/Program Files/poppler/poppler-21.10.0/Library/bin'
 # Store Pdf with convert_from_path function
 images = convert_from_path("K:/Reporting/GirlingPDFs/All_Docs.pdf",single_file=False)
